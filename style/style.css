@@ -23,11 +23,12 @@ main{
 }
 .advice{
     position: relative;
-    max-width: 350px;
+    max-width: clamp(350px, 400px ,400px);
     border-radius: 0.5em;
     background: var(--dark-rayish-blue);
-    padding: 3em 2em;
+    padding: 3em 2em 4em;
     text-align: center;
+    box-shadow: 5px 0.5em 14px -4px black;
 }
 #advice-text{
     color: white;
